@@ -1,0 +1,122 @@
+﻿[
+    {
+        "Location":  "root",
+        "Name":  "01_Item_Blueprint_Mini_Template.docx",
+        "SHA256":  "A833B6415B042FEB17646845E5A14D2E77D66FDA78B9BCE1811F28080E7C8109",
+        "Characters":  7027
+    },
+    {
+        "Location":  "root",
+        "Name":  "02_AI_LLM_Item_Development_Prompt_Pack.docx",
+        "SHA256":  "ED6CE5E0E3DF2EEF20C842AC23FC0B20B6A450649157B86017D7FDC1F291E489",
+        "Characters":  13337
+    },
+    {
+        "Location":  "root",
+        "Name":  "03_Item_Review_Rubric.docx",
+        "SHA256":  "728B1E3EA490ACFDE5506A58C4AB4124BDDBB1D12B250C79D8614D0979B0C75D",
+        "Characters":  8140
+    },
+    {
+        "Location":  "root",
+        "Name":  "04_Item_Metadata_Sheet.docx",
+        "SHA256":  "3F02062AB30E6C0F4FD3D7FC98B30B349D8BC9AF2D5A9EA2936AD684619858EC",
+        "Characters":  5594
+    },
+    {
+        "Location":  "root",
+        "Name":  "05_AI_Use_Audit_Log.docx",
+        "SHA256":  "0E254A21D92AD589E63ED21205F1184261BC17681643ED938CAF2B1757395D21",
+        "Characters":  6298
+    },
+    {
+        "Location":  "folder",
+        "Name":  "01_Item_Blueprint_Mini_Template.docx",
+        "SHA256":  "707D9962AB84BAA9E91B715FB47B54D396E3624B5EA1054F7D8C98B9DB0CDCDF",
+        "Characters":  7368
+    },
+    {
+        "Location":  "folder",
+        "Name":  "02_AI_LLM_Item_Development_Prompt_Pack.docx",
+        "SHA256":  "BB386C2CAD9EBABEC462F6AD09684880EE1B7B15F76F173F2C21032291260459",
+        "Characters":  13337
+    },
+    {
+        "Location":  "folder",
+        "Name":  "03_Item_Review_Rubric.docx",
+        "SHA256":  "2C2ED38497D3C1B4B033E89F25A60B604E39072C2A73221C80671792E2E8723B",
+        "Characters":  8302
+    },
+    {
+        "Location":  "folder",
+        "Name":  "04_Item_Metadata_Sheet.docx",
+        "SHA256":  "22F0622AC6F81C477B3C9E6C9DBF86B7735F026658FA14D8FE12A06FB5675FA0",
+        "Characters":  5624
+    },
+    {
+        "Location":  "folder",
+        "Name":  "05_AI_Use_Audit_Log.docx",
+        "SHA256":  "3B3F6D0DC8E6AA33A8FE28F422111CF0940EE6819EF1B270AF180D33327C2651",
+        "Characters":  6298
+    },
+    {
+        "Location":  "example",
+        "Name":  "01_Minimal_Example_Item_Blueprint.docx",
+        "SHA256":  "archive member",
+        "Characters":  3000
+    },
+    {
+        "Location":  "example",
+        "Name":  "02_Minimal_Example_Prompt_Pack.docx",
+        "SHA256":  "archive member",
+        "Characters":  4280
+    },
+    {
+        "Location":  "example",
+        "Name":  "03_Minimal_Example_Item_Review_Rubric.docx",
+        "SHA256":  "archive member",
+        "Characters":  2356
+    },
+    {
+        "Location":  "example",
+        "Name":  "04_Minimal_Example_Item_Metadata.docx",
+        "SHA256":  "archive member",
+        "Characters":  1967
+    },
+    {
+        "Location":  "example",
+        "Name":  "05_Minimal_Example_AI_Use_Audit_Log.docx",
+        "SHA256":  "archive member",
+        "Characters":  2407
+    },
+    {
+        "Location":  "archive",
+        "Name":  "01_Item_Blueprint_Mini_Template.docx",
+        "SHA256":  "archive member",
+        "Characters":  7368
+    },
+    {
+        "Location":  "archive",
+        "Name":  "02_AI_LLM_Item_Development_Prompt_Pack.docx",
+        "SHA256":  "archive member",
+        "Characters":  13337
+    },
+    {
+        "Location":  "archive",
+        "Name":  "03_Item_Review_Rubric.docx",
+        "SHA256":  "archive member",
+        "Characters":  8302
+    },
+    {
+        "Location":  "archive",
+        "Name":  "04_Item_Metadata_Sheet.docx",
+        "SHA256":  "archive member",
+        "Characters":  5624
+    },
+    {
+        "Location":  "archive",
+        "Name":  "05_AI_Use_Audit_Log.docx",
+        "SHA256":  "archive member",
+        "Characters":  6298
+    }
+]

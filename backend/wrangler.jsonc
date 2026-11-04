@@ -1,0 +1,26 @@
+{
+  "$schema": "../node_modules/wrangler/config-schema.json",
+  "name": "acata-workshop-api",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-04",
+  "workers_dev": true,
+  "observability": { "enabled": false },
+  "vars": {
+    "ALLOWED_ORIGIN": "https://tiamole.github.io",
+    "RESEARCH_ENABLED": "false",
+    "RESEARCH_RETENTION_DAYS": "0",
+    "RESEARCH_CONTACT": "",
+    "RESEARCH_APPROVAL": "",
+    "RESEARCH_CONSENT_VERSION": "",
+    "RESEARCH_CONSENT_TEXT": ""
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "acata-workshop",
+      "database_id": "REPLACE_WITH_CREATED_D1_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "triggers": { "crons": ["17 4 * * *"] }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "downloads/01_Item_Blueprint_Mini_Template.docx",
+    "bytes": 42617,
+    "sha256": "707d9962ab84baa9e91b715fb47b54d396e3624b5ea1054f7d8c98b9db0cdcdf"
+  },
+  {
+    "file": "downloads/02_AI_LLM_Item_Development_Prompt_Pack.docx",
+    "bytes": 44995,
+    "sha256": "bb386c2cad9ebabec462f6ad09684880ee1b7b15f76f173f2c21032291260459"
+  },
+  {
+    "file": "downloads/03_Item_Review_Rubric.docx",
+    "bytes": 43694,
+    "sha256": "2c2ed38497d3c1b4b033e89f25a60b604e39072c2a73221c80671792e2e8723b"
+  },
+  {
+    "file": "downloads/04_Item_Metadata_Sheet.docx",
+    "bytes": 42125,
+    "sha256": "22f0622ac6f81c477b3c9e6c9dbf86b7735f026658fa14d8fe12a06fb5675fa0"
+  },
+  {
+    "file": "downloads/05_AI_Use_Audit_Log.docx",
+    "bytes": 42525,
+    "sha256": "3b3f6d0dc8e6aa33a8fe28f422111cf0940ee6819ef1b270af180d33327c2651"
+  },
+  {
+    "file": "downloads/examples/01_Minimal_Example_Item_Blueprint.docx",
+    "bytes": 38726,
+    "sha256": "029f7cc12546c10d49e01d31543f505a4b97831b7f1063bc0357503e7664e3dd"
+  },
+  {
+    "file": "downloads/examples/02_Minimal_Example_Prompt_Pack.docx",
+    "bytes": 38921,
+    "sha256": "adb1bf98fc06a953bfe1350dfd4b6be7f39a4ffa5bda93d50d367bdc04e116e9"
+  },
+  {
+    "file": "downloads/examples/03_Minimal_Example_Item_Review_Rubric.docx",
+    "bytes": 38421,
+    "sha256": "7ce5ae6af4e8af592e6596f3f0cc82eef6586827eb2c83183f2461dcd75bee58"
+  },
+  {
+    "file": "downloads/examples/04_Minimal_Example_Item_Metadata.docx",
+    "bytes": 38149,
+    "sha256": "5d105301e5ddac8e4c92b1445c076d98cc3c470246062380511bd3fd5b0a68ff"
+  },
+  {
+    "file": "downloads/examples/05_Minimal_Example_AI_Use_Audit_Log.docx",
+    "bytes": 38502,
+    "sha256": "b24cf1a862a2a0e00f048db36b077cde1c5e90bda8cf21381d5dcbd664d54426"
+  },
+  {
+    "file": "downloads/participant-toolkit.zip",
+    "bytes": 203411,
+    "sha256": "fdc0d47f018ca958930c0e5a3edd2c94d4ac0eaf2d8febe02abb3dd0cc471e0f"
+  },
+  {
+    "file": "downloads/worked-examples.zip",
+    "bytes": 181248,
+    "sha256": "76b858d4d8b451a2f4ef60c64990e7b03ca7d9435b3b2a11d32c5276a5fa331d"
+  }
+]

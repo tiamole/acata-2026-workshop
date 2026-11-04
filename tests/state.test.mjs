@@ -1,0 +1,5 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {emptyWorkspace,validateWorkspace,completionCount} from '../public/state.js';
+test('workspace round trip preserves notes and self-reported completion',()=>{const state=emptyWorkspace();state.fields.blueprint={construct:'Apply Ohm’s law'};state.checks.blueprint=[true,true,true,true];const restored=validateWorkspace(JSON.parse(JSON.stringify(state)));assert.equal(restored.fields.blueprint.construct,'Apply Ohm’s law');assert.equal(completionCount(restored),1);});
+test('invalid, oversized and prototype-bearing imports are rejected',()=>{assert.throws(()=>validateWorkspace({version:99}));const state=emptyWorkspace();state.fields.blueprint={construct:'x'.repeat(12001)};assert.throws(()=>validateWorkspace(state));state.fields.blueprint=JSON.parse('{"__proto__":"bad"}');assert.throws(()=>validateWorkspace(state));state.fields.blueprint={};state.checks.blueprint=['true'];assert.throws(()=>validateWorkspace(state));});

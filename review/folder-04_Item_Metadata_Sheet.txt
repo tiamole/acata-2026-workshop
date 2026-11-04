@@ -1,0 +1,131 @@
+Modernising Item Development with AI and LLMs
+4. Item Metadata Sheet
+A standardized record for item identity, construct alignment, provisional difficulty, scoring, distractor logic, accessibility, and lifecycle status.
+Purpose
+Complete one metadata record for every item that progresses beyond initial drafting. Consistent metadata makes item banks searchable, supports review, reduces version confusion, and prepares items for later psychometric analysis. Fields marked as provisional must be updated after pilot or operational data become available.
+A. Identification and lifecycle
+Metadata field
+Entry
+Item ID
+Item title or short label
+Version
+Status
+Draft / Expert review / Revised / Pilot ready / Piloted / Calibrated / Operational / Retired
+Author or source
+Reviewer or approving team
+Date created
+Date last revised
+Assessment or item bank
+Security classification
+Practice / Internal / Secure / Other: __________________________
+B. Construct and blueprint alignment
+Metadata field
+Entry
+Domain or subject
+Content strand or topic
+Learning outcome or competency ID
+Skill tag
+Subskill or concept tag
+Intended cognitive process
+Remember / Understand / Apply / Analyze / Evaluate / Create / Other
+Evidence elicited
+Blueprint cell or coverage category
+Population or level
+Prerequisite knowledge
+C. Item and scoring characteristics
+Metadata field
+Entry
+Item format
+Multiple choice / Multiple response / Short answer / Extended response / Performance / Other
+Stimulus type
+None / Text / Table / Figure / Audio / Video / Data / Scenario / Other
+Correct answer or key
+Maximum score
+Scoring method
+Dichotomous / Partial credit / Analytic rubric / Holistic rubric / Other
+Expected response time
+Calculator or tool policy
+Units, notation, or formatting requirements
+D. Provisional difficulty and complexity
+A pre-pilot difficulty label is a design estimate based on item features. Empirical difficulty must be estimated from response data using methods appropriate to the assessment design.
+Field
+Entry
+Target design difficulty
+Introductory / Moderate / Challenging
+Difficulty rationale
+Describe content familiarity, number of reasoning steps, abstraction, computation, reading load, and likely misconceptions.
+Potential unintended difficulty
+Identify vocabulary, lengthy calculations, visual complexity, unfamiliar context, or hidden prerequisites.
+Post-pilot classical difficulty, if used
+p-value or proportion correct: __________  Sample and date: ____________________
+Post-calibration item parameter, if used
+Model: __________  Parameter(s): __________  Calibration sample: ________________
+Evidence status
+Design estimate only / Pilot evidence / Calibrated evidence / Operational monitoring
+E. Distractor logic for selected-response items
+Option
+Key?
+Intended misconception or error
+Why plausible
+Empirical performance or note
+A
+B
+C
+D
+E, if used
+Interpretation note
+A plausible distractor rationale written before pilot testing is a hypothesis. After pilot testing, review option selection frequencies and other diagnostics appropriate to the assessment. Replace unsupported assumptions with empirical findings.
+F. Rationale and review evidence
+Correct-answer or scoring rationale
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+Construct alignment rationale
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+Known assumptions or conditions required for the answer
+________________________________________________________________________________
+________________________________________________________________________________
+References or authoritative sources used to verify content, if applicable
+________________________________________________________________________________
+________________________________________________________________________________
+G. Fairness, accessibility, and language metadata
+Field
+Entry
+Reading or language level note
+Potential culture or context dependence
+Accessibility features required
+Alt text / Keyboard access / Captions / High contrast / Screen reader structure / Other
+Accommodations considered
+Sensitive content flag
+None / Present and justified / Requires review
+Fairness review status
+Not reviewed / Screened / Expert reviewed / Empirically investigated
+DIF analysis status, if applicable
+Not applicable / Not conducted / Conducted. Method and result: __________________
+H. AI and provenance metadata
+Field
+Entry
+AI used in development?
+No / Yes
+AI role
+Drafting / Variation / Review / Language editing / Fairness screening / Other
+System or model name, if organizational policy permits recording it
+Prompt or audit-log reference
+Human substantive edits completed?
+No / Yes. See audit record: __________________________
+Final human approver
+I. Item bank and CAT readiness
+Field
+Entry
+Item bank tags complete
+Yes / No
+Exposure or reuse restriction
+Enemy item relationships
+List items that should not appear together, if applicable.
+Content balancing categories
+Calibrated for adaptive administration?
+No / Yes. Calibration reference: __________________________
+Retirement or review date
+CAT readiness requires more than metadata. Adaptive use normally depends on an appropriate calibrated item pool, model fit, content balancing rules, exposure controls, and operational quality assurance.

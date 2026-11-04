@@ -1,0 +1,62 @@
+[
+  {
+    "number": 1,
+    "title": "Blueprint-to-item generator",
+    "description": "You have a completed blueprint and need first-draft items that are deliberately constrained by the intended construct.",
+    "body": "You are supporting an assessment development team as an item-writing assistant. Treat the specifications below as binding constraints. Do not change the construct, learner level, or cognitive demand without explicitly flagging the problem.\n\nASSESSMENT CONTEXTSubject or domain: [\n\nINSERT]\nLearner population: [\n\nINSERT]\nAssessment purpose: [\n\nINSERT]\nLearning outcome or competency: [\n\nINSERT]\nEvidence of successful performance: [\n\nINSERT]\nIntended cognitive process: [\n\nINSERT]\nContent that must be included: [\n\nINSERT]\nContent that must not be included: [\n\nINSERT]\nPermitted prerequisite knowledge: [\n\nINSERT]\nFairness and accessibility constraints: [\n\nINSERT]\nItem format: [\n\nINSERT]\nNumber of items: [\n\nINSERT]\nTarget design difficulty: [\n\nINTRODUCTORY / MODERATE / CHALLENGING]\n\nTASKGenerate the requested items. For each item provide:1. Item stem or task.\n2. Response options or expected response structure, as applicable.\n3. Correct answer or scoring guidance.\n4. A concise rationale explaining why the answer is correct.\n5. For each distractor, the misconception or reasoning error it is intended to represent.\n6. The specific learning outcome and content element measured.\n7. The intended cognitive process and a brief justification.\n8. A provisional difficulty rationale based on item features, clearly labeled as a design estimate rather than empirical difficulty.\n9. Any fairness, accessibility, ambiguity, or construct-alignment concern you detect.\n\nQUALITY CONSTRAINTSUse clear language appropriate for the target population. Avoid trick wording, unnecessary negatives, grammatical clues, implausible distractors, overlapping options, hidden prerequisites, and context that is irrelevant to the construct. If the blueprint is insufficient or internally inconsistent, identify the missing information instead of inventing it."
+  },
+  {
+    "number": 2,
+    "title": "Selected-response item reviewer",
+    "description": "You want a second-pass review of a multiple-choice or multiple-response item before human adjudication.",
+    "body": "Act as a critical item reviewer, not as the original item writer. Evaluate the item against the blueprint and report problems before proposing edits.\n\nBLUEPRINT[\n\nPASTE THE RELEVANT BLUEPRINT FIELDS]\nITEM[\n\nPASTE ONE ITEM, \n\nOPTIONS, KEY, \n\nAND RATIONALE]\n\nREVIEW IN THIS ORDERA. Construct relevance: Does the item require evidence of the intended knowledge or skill?B. Cognitive demand: Is the reasoning actually at the intended level?C. Content accuracy: Are the stem, key, and rationale technically correct?D. Single best answer or response rule: Is the key defensible and are competing options clearly incorrect under the stated assumptions?E. Distractor quality: Is each distractor plausible because of a recognizable misconception or error, without being misleading?F. Language and accessibility: Is wording concise, direct, readable, and free of irrelevant linguistic burden?G. Fairness screening: Identify contextual or linguistic features that could create construct-irrelevant barriers for the target population.H. Item-writing flaws: Check cueing, option length patterns, absolutes, unnecessary negatives, \"all of the above,\" overlapping options, grammatical clues, and unintended hints.\n\nOUTPUTFor each category assign: PASS, \n\nREVISE, or \n\nMAJOR CONCERN. Cite the exact feature causing the rating. Then provide a revised item only if revision can preserve the intended construct. End with a human decision question: \"What evidence should the review team verify before approving this item?\""
+  },
+  {
+    "number": 3,
+    "title": "Constructed-response task and rubric reviewer",
+    "description": "",
+    "body": "Review the constructed-response task and scoring rubric below for construct alignment, fairness, and score interpretability.\n\nBLUEPRINT[\n\nINSERT]\n\nTASK AND RUBRIC[\n\nINSERT]\nEvaluate:1. Whether the task elicits the intended evidence rather than unrelated writing, memory, or background knowledge.\n2. Whether directions and expected response length are clear.\n3. Whether rubric criteria map directly to the learning outcome.\n4. Whether score levels are distinct, observable, and consistently interpretable.\n5. Whether criteria double-count the same feature.\n6. Whether language mechanics are scored only when they are part of the construct.\n7. Whether examples, contexts, or resource requirements create avoidable access barriers.\n8. Whether a trained reviewer could apply the rubric without guessing unstated expectations.Return a table with columns: criterion, finding, severity, recommended revision, and human verification needed. If you recommend changes, preserve the original construct."
+  },
+  {
+    "number": 4,
+    "title": "Cognitive demand challenge test",
+    "description": "",
+    "body": "The intended cognitive process for this item is [\n\nINSERT]. Analyze what a minimally prepared test taker actually has to do to answer correctly.ITEM[\n\nINSERT]\nDo not infer cognitive demand from the verb in the stem. Trace the shortest plausible solution path. Then answer:1. What knowledge must be retrieved?2. What reasoning or procedure must be performed?3. Could the correct answer be obtained by superficial cues, memorization, elimination, or pattern matching?4. Does the item require the intended cognitive process throughout, or only superficially?5. What change, if any, would better elicit the intended reasoning without adding irrelevant difficulty?Rate alignment as \n\nSTRONG, \n\nPARTIAL, or \n\nWEAK and explain the rating concisely."
+  },
+  {
+    "number": 5,
+    "title": "Bias and fairness screening",
+    "description": "",
+    "body": "Use this as a screening prompt, not as proof that an item is unbiased. Statistical bias investigation requires suitable response data, group definitions justified by the assessment context, and expert interpretation.\nScreen the item for potential construct-irrelevant barriers. Do not claim that the item is unbiased or that differential item functioning has been tested.\n\nTARGET CONSTRUCT: [\n\nINSERT]\n\nTARGET POPULATION: [\n\nINSERT]\nITEM: [\n\nINSERT]\nExamine the item for:1. Unnecessary cultural, regional, socioeconomic, religious, gendered, or technology-specific assumptions.\n2. Names, settings, idioms, humor, examples, or experiences that are not needed for the construct.\n3. Reading load or vocabulary that exceeds what the construct requires.\n4. Context that could advantage learners because of background familiarity rather than target knowledge.\n5. Stereotypes, stigmatizing framing, or sensitive content that is unnecessary for measurement.\n6. Visual, numerical, symbolic, or interaction demands that could create accessibility barriers.\n7. Differential interpretations of words or scenarios across the intended population.For each concern, state: the exact feature, the plausible construct-irrelevant barrier, who might be affected in general terms, confidence in the concern, and a construct-preserving revision. Also identify any change that should NOT be made because it would alter the construct."
+  },
+  {
+    "number": 6,
+    "title": "Language clarity and accessibility review",
+    "description": "",
+    "body": "Revise the item for clarity and accessibility while preserving technical meaning, intended difficulty, and the target construct.\n\nTARGET POPULATION: [\n\nINSERT]\n\nCONSTRUCT: [\n\nINSERT]\nITEM: [\n\nINSERT]\nCheck for long sentences, unnecessary passive voice, ambiguous pronouns, double negatives, avoidable jargon, excessive reading load, inconsistent terminology, unclear units, and instructions that depend on visual position alone.Return:A. A concise list of issues.B. A revised version.C. A change log showing each substantive edit and why it does not alter the construct.D. Any wording that should remain technical because simplifying it would change what is being measured."
+  },
+  {
+    "number": 7,
+    "title": "Distractor engineering review",
+    "description": "",
+    "body": "Review the distractors for the selected-response item below.\n\nITEM AND KEY: [\n\nINSERT]\n\nTARGET LEARNERS: [\n\nINSERT]\n\nCOMMON MISCONCEPTIONS OR ERRORS KNOWN TO SUBJECT EXPERTS: [\n\nINSERT, \n\nIF AVAILABLE]\nFor each distractor:1. State the misconception or procedural error it represents.\n2. Judge whether it is plausible for a learner who has not mastered the target skill.\n3. Flag distractors that are obviously wrong, technically defensible, overlapping, or dependent on trick wording.\n4. Check for clues from option length, grammar, numerical pattern, precision, or repeated words.\n5. Propose a replacement only when necessary.Do not invent a misconception as established fact. If the misconception is hypothesized rather than documented, label it as a hypothesis for later empirical review."
+  },
+  {
+    "number": 8,
+    "title": "Parallel-form variation for item banks",
+    "description": "",
+    "body": "Create [\n\nNUMBER] candidate variants of the approved source item for possible item-bank development.\n\nSOURCE ITEM: [\n\nINSERT]\n\nBLUEPRINT CONSTRAINTS: [\n\nINSERT]\nPreserve the same construct, content domain, response format, and intended cognitive process. Vary only features that are explicitly allowed, such as values, surface context, representation, or ordering. Do not assume that generated variants are psychometrically equivalent.For each variant provide:1. The complete item and key.\n2. What was varied.\n3. What was held constant.\n4. A risk note describing any way the variation might alter difficulty, interpretation, or accessibility.\n5. A recommendation for what must be checked by a subject matter expert and what must later be tested empirically."
+  },
+  {
+    "number": 9,
+    "title": "Item-set coverage and construct representation",
+    "description": "",
+    "body": "Evaluate the \n\nITEM SET against the \n\nBLUEPRINT as a set, not one item at a time.\n\nBLUEPRINT: [\n\nINSERT]\n\nITEM SET: [\n\nINSERT]\nCreate a coverage matrix by content focus, learning outcome, cognitive process, item format, and intended difficulty. Identify:1. Overrepresented areas.\n2. Underrepresented or missing areas.\n3. Repeated item patterns that create narrow construct sampling.\n4. Items that appear redundant.\n5. Areas where additional items are needed.Do not claim construct validity from coverage alone. End with a human review plan specifying which gaps should be addressed before pilot testing."
+  },
+  {
+    "number": 10,
+    "title": "Final pre-pilot red-team review",
+    "description": "",
+    "body": "Act as an adversarial pre-pilot reviewer. Your job is to find reasons this item should NOT yet be approved.\n\nBLUEPRINT: [\n\nINSERT]\nITEM: [\n\nINSERT]\n\nPREVIOUS REVIEW NOTES: [\n\nINSERT]\nTry to identify:1. A technically defensible alternative answer.\n2. Missing assumptions.\n3. Construct-irrelevant shortcuts or barriers.\n4. Ambiguous interpretation.\n5. Content or scoring errors.\n6. Accessibility or fairness concerns.\n7. Security or disclosure concerns.\n8. Reasons the item may behave differently from its intended difficulty.For every challenge, assign severity: \n\nCRITICAL, \n\nMATERIAL, \n\nMINOR, or \n\nNO ISSUE. Do not force a problem when evidence is weak. Conclude with one of three recommendations: HOLD, \n\nREVISE AND RECHECK, or \n\nREADY FOR HUMAN PRE-PILOT APPROVAL. State clearly that the recommendation is advisory."
+  }
+]

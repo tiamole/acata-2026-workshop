@@ -1,0 +1,57 @@
+Modernising Item Development with AI and LLMs
+Minimal Worked Example Set for Participants
+4. Item Metadata Sheet: Minimal Worked Example
+Illustrative scenario: Secondary level science, applying Ohm's law. This example is for workshop practice only and is not tied to a specific examination board or national curriculum.
+Completed metadata record
+Field
+Minimal example
+Item ID
+OHM-001
+Version
+1.1
+Lifecycle status
+Draft reviewed, ready for pilot consideration
+Domain
+Basic electricity
+Content topic
+Ohm's law
+Skill tag
+Calculate current from voltage and resistance
+Learning outcome
+Given voltage and resistance, calculate current using I = V/R.
+Cognitive demand
+Apply
+Item format
+Four option selected response
+Key
+B. 3 A
+Score
+1 point
+Provisional difficulty estimate
+Easy to moderate for learners who have been taught the relationship
+Basis for provisional estimate
+One formula selection and one simple division; no empirical data yet
+Empirical difficulty
+Not available
+Empirical discrimination
+Not available
+Distractor A logic
+Possible reversal or misapplication of division
+Distractor C logic
+Possible subtraction of 12 minus 4
+Distractor D logic
+Possible multiplication of 12 by 4
+Language notes
+Short stem; technical terms limited to voltage, resistor, and current
+Accessibility notes
+Text only; no diagram required
+Fairness screening notes
+No obvious culture specific context; further review and data based analysis required
+AI involvement
+AI used to propose a draft and distractor rationales; human reviewer verified key, wording, and alignment
+Human reviewer status
+Provisionally approved for pilot consideration
+CAT or item bank readiness
+Metadata complete for storage; not calibrated for CAT use
+Why this record matters
+The metadata keeps design intent, review history, and evidence status visible. Notice that provisional judgments are explicitly separated from empirical fields. This prevents a design estimate from being mistaken for psychometric evidence.

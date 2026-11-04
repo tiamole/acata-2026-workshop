@@ -1,0 +1,156 @@
+Modernising Item Development with AI and LLMs
+3. Item Review Rubric
+A structured rubric for validity-oriented review, alignment, language quality, accessibility, fairness, and technical item quality.
+Purpose
+Use this rubric during expert review of drafted items. It supports systematic judgment before pilot testing. It does not substitute for validation evidence based on response processes, internal structure, relations to other variables, consequences, or psychometric analyses when those forms of evidence are required.
+Rating scale
+Rating
+Meaning
+Decision implication
+4 - Strong
+Meets the criterion clearly. No substantive revision is needed.
+Retain, subject to overall review.
+3 - Acceptable
+Meets the criterion with a minor issue that does not threaten interpretation.
+Minor edit may be made.
+2 - Needs revision
+A meaningful issue could weaken quality, alignment, accessibility, or interpretation.
+Revise and re-review.
+1 - Major concern
+The item has a serious flaw or insufficient evidence for the criterion.
+Do not approve until corrected.
+N/A
+Criterion does not apply to this item type or context.
+Document why it is not applicable.
+Decision rule: Do not average away a critical defect. A serious content error, ambiguous key, construct mismatch, or unacceptable fairness concern should block approval even when other ratings are high.
+Core item review rubric
+Criterion
+What strong quality looks like
+Reviewer evidence or question
+Rating
+1. Construct relevance
+The item elicits evidence directly relevant to the intended construct, competency, or learning outcome.
+Item measures the stated target rather than trivia, peripheral knowledge, or unrelated skills.
+1 / 2 / 3 / 4 / N/A
+2. Content accuracy
+The stem, options, answer key, rationale, units, data, figures, and assumptions are technically accurate.
+No factual errors, contradictory assumptions, or outdated content that affects scoring.
+1 / 2 / 3 / 4 / N/A
+3. Blueprint alignment
+Content, format, population, and scope match the approved blueprint.
+Required content is present and prohibited content or hidden prerequisites are absent.
+1 / 2 / 3 / 4 / N/A
+4. Cognitive demand
+The shortest plausible solution path requires the intended level and type of thinking.
+Correct response cannot be obtained through obvious cues or simpler reasoning than intended.
+1 / 2 / 3 / 4 / N/A
+5. Evidence sufficiency
+The response provides enough evidence to support the intended score interpretation for this item.
+The task is neither too narrow nor too indirect for the claim made about performance.
+1 / 2 / 3 / 4 / N/A
+6. Stem or task clarity
+The problem is complete, focused, and interpretable without avoidable ambiguity.
+Learners know what to do and what information is relevant.
+1 / 2 / 3 / 4 / N/A
+7. Response option quality
+Options are mutually interpretable, grammatically consistent, and free from unintended clues.
+Selected-response options follow sound item-writing practice.
+1 / 2 / 3 / 4 / N/A
+8. Key defensibility
+The keyed answer is correct under the stated conditions and competing answers are not equally defensible.
+Scoring can be justified by content evidence.
+1 / 2 / 3 / 4 / N/A
+9. Distractor logic
+Distractors represent plausible errors or misconceptions without deception.
+Distractors are neither absurd nor accidentally correct.
+1 / 2 / 3 / 4 / N/A
+10. Language load
+Reading complexity, vocabulary, syntax, and length are no greater than needed for the construct.
+Language does not become an unintended source of difficulty.
+1 / 2 / 3 / 4 / N/A
+11. Accessibility
+Presentation and interaction demands are compatible with intended accessibility requirements.
+Meaning does not depend unnecessarily on color, location, unsupported formatting, or inaccessible media.
+1 / 2 / 3 / 4 / N/A
+12. Fairness screening
+No unnecessary contextual feature appears likely to advantage or disadvantage subgroups for construct-irrelevant reasons.
+Potential barriers are identified for expert review or empirical investigation.
+1 / 2 / 3 / 4 / N/A
+13. Sensitivity and respect
+The item avoids unnecessary stereotypes, stigmatizing content, or sensitive scenarios unrelated to the construct.
+Context is professionally appropriate for the target population.
+1 / 2 / 3 / 4 / N/A
+14. Difficulty coherence
+The intended difficulty is consistent with the knowledge, reasoning, reading load, and procedural demands built into the item.
+Difficulty is treated as a design hypothesis until response data are available.
+1 / 2 / 3 / 4 / N/A
+15. Scoring clarity
+Scoring rules or rubric criteria are explicit, observable, and aligned with the intended evidence.
+Different trained raters should not need to infer hidden expectations.
+1 / 2 / 3 / 4 / N/A
+16. Security and originality
+The item does not unnecessarily reproduce known secure material and follows applicable content-use policies.
+Source provenance and permissions are documented when relevant.
+1 / 2 / 3 / 4 / N/A
+Selected-response diagnostic checklist
+Check
+Yes
+No
+N/A
+Revision note
+Stem states a complete problem or clear question.
+Only necessary information is included.
+Negative wording is avoided or clearly emphasized when essential.
+Options are parallel in grammar and level of detail.
+Option lengths do not reveal the key.
+Options do not overlap in a way that creates multiple defensible answers.
+Absolute terms such as always or never are justified if used.
+No option gives an unintended clue to another item.
+Distractors are plausible for the intended population.
+Numerical options use consistent precision and units.
+Random guessing is not made easier by obvious patterns.
+All of the above or none of the above is avoided unless there is a defensible reason.
+Constructed-response and performance-task checklist
+Check
+Yes
+No
+N/A
+Revision note
+Task directions specify the expected product or response.
+Response length or performance conditions are appropriate.
+Required resources are available equally to intended participants.
+Rubric criteria map to the intended outcome.
+Score levels describe observable differences in performance.
+A single feature is not unintentionally scored multiple times.
+Language mechanics are scored only when they are part of the construct.
+Examples or anchors do not narrow acceptable responses more than intended.
+Fairness and accessibility review prompts
+Would a learner need cultural or regional knowledge that is not part of the construct?
+Would unfamiliar names, settings, occupations, technology, or socioeconomic assumptions affect performance?
+Does the item require more reading, vision, hearing, motor interaction, or working memory than the construct requires?
+Could simplification improve access without lowering the intended cognitive demand?
+Is the context sensitive, stigmatizing, or emotionally loaded without a measurement reason?
+If a concern is plausible but uncertain, should it be flagged for cognitive interviewing, pilot analysis, or differential item functioning analysis rather than resolved by guesswork?
+Reviewer summary and disposition
+Decision
+Select one
+Meaning
+Approve for next review stage
+No unresolved major concerns.
+Approve with minor edits
+Edits do not require full content re-review.
+Revise and re-review
+At least one substantive issue must be addressed.
+Hold or retire
+Item cannot be repaired efficiently or is unsuitable for the intended use.
+Most important evidence supporting the decision
+________________________________________________________________________________
+Required revision or follow-up evidence
+________________________________________________________________________________
+Reviewer name or ID
+________________________________________________________________________________
+Date and version reviewed
+________________________________________________________________________________
+Inter-reviewer use
+Recommended practice
+When two or more reviewers are used, have them rate independently before discussion. Compare category-level differences, resolve disagreements by evidence, and retain the original ratings when possible. Agreement statistics can support quality monitoring, but numerical agreement does not replace substantive adjudication.

@@ -1,0 +1,156 @@
+Modernising Item Development with AI and LLMs
+5. AI-Use Audit Log
+A transparent record of what AI contributed, what humans changed, why decisions were made, and what still requires evidence.
+Purpose
+Use this log when AI or LLMs contribute to item drafting, review, refinement, variation, or screening. The log supports accountability and reproducibility by distinguishing AI output from human decisions. It should be adapted to organizational policy, security classification, and data governance requirements.
+Core principles
+Principle
+Operational meaning
+Traceability
+Record enough information to reconstruct what the AI was asked to do and how its output influenced the item.
+Human accountability
+Name the human role responsible for accepting, rejecting, or revising substantive recommendations.
+Data minimization
+Do not record or transmit personal, confidential, or secure content beyond what policy permits.
+Evidence separation
+Label AI judgments about difficulty, bias, or validity as hypotheses or screening observations unless supported by independent evidence.
+Version control
+Link the log entry to the specific item version reviewed or generated.
+Proportionality
+Record substantive decisions. Minor spelling or formatting changes do not need the same detail as changes to the construct, key, scoring, or fairness.
+A. Session-level record
+Field
+Entry
+Project or assessment
+Session date
+Item ID or batch
+Item version before AI use
+Human operator or reviewer role
+AI system or model, if policy permits recording it
+AI function used
+Generation / Review / Refinement / Variation / Fairness screening / Language editing / Other
+Data classification checked
+Yes / No / Not applicable
+Policy or permission check completed
+Yes / No / Not applicable
+B. Prompt and input record
+Prompt or prompt reference
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+Key input constraints supplied to the AI
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+Input safeguard
+Check
+Notes
+No personally identifiable learner data included.
+Yes / No / N/A
+No restricted or secure test content used outside authorized conditions.
+Yes / No / N/A
+Proprietary content use is authorized.
+Yes / No / N/A
+Target construct and blueprint constraints were supplied.
+Yes / No
+C. AI output and human decision log
+Entry
+AI output or recommendation
+Human action
+Reason for decision
+Evidence or reviewer
+1
+Accepted / Edited / Rejected
+2
+Accepted / Edited / Rejected
+3
+Accepted / Edited / Rejected
+4
+Accepted / Edited / Rejected
+5
+Accepted / Edited / Rejected
+D. Substantive change log
+What counts as substantive
+Record changes to the learning outcome, content, scenario, stem meaning, answer key, distractor purpose, scoring rule, cognitive demand, fairness, accessibility, or intended difficulty. A revision can improve an item while also changing what it measures, so document the reason and re-review alignment.
+Version
+What changed
+Why it changed
+Who decided
+Re-review required?
+Yes / No
+Yes / No
+Yes / No
+Yes / No
+E. AI claim verification
+AI claim or flag
+How it was verified
+Result
+Status
+Content accuracy
+Authoritative source or subject matter expert review.
+Verified / Unresolved / N/A
+Answer key
+Independent solution or expert adjudication.
+Verified / Unresolved / N/A
+Cognitive demand
+Shortest-solution-path review against blueprint.
+Verified / Unresolved / N/A
+Difficulty
+Pre-pilot rationale only, or response data after pilot.
+Design estimate / Empirical
+Fairness or bias concern
+Expert review, cognitive evidence, and empirical analysis when applicable.
+Screened / Investigated / Unresolved
+Language or accessibility concern
+Accessibility review or user testing when applicable.
+Verified / Revised / Unresolved
+F. Final disposition
+Decision question
+Response
+Did AI generate any content retained in the current item version?
+No / Yes
+Did a human verify technical accuracy?
+No / Yes / Not applicable
+Did a human verify the answer key or scoring rule?
+No / Yes / Not applicable
+Was construct alignment rechecked after substantive edits?
+No / Yes / Not applicable
+Were fairness and accessibility concerns reviewed?
+No / Yes / Not applicable
+Are any unresolved concerns remaining?
+No / Yes. Describe below.
+Disposition
+Hold / Revise / Send to expert review / Pilot ready / Other
+Unresolved concern, limitation, or follow-up action
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+Human approver name or role
+________________________________________________________________________________
+Approval date and resulting item version
+________________________________________________________________________________
+G. Suggested minimum audit fields for scaled workflows
+Minimum field
+Why retain it
+Item ID and version
+Links the AI interaction to the exact artifact.
+Date and operator or role
+Establishes accountability and sequence.
+AI system or model
+Supports reproducibility when recording is permitted.
+Prompt reference
+Shows the instruction context.
+Output summary
+Records what the AI contributed without requiring unnecessary retention of sensitive content.
+Human disposition
+Shows whether output was accepted, edited, or rejected.
+Reason for substantive decision
+Makes professional judgment auditable.
+Verification evidence
+Separates AI suggestion from independently checked evidence.
+Final approver and status
+Establishes the human gate before pilot or operational use.
+Workshop exercise
+During the lab
+Choose one AI recommendation that you accepted, one that you edited, and one that you rejected. Record each decision in Section C. Your goal is not to agree with the model. Your goal is to make the reasoning behind the human decision visible and defensible.

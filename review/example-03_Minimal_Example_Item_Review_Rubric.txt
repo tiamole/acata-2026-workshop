@@ -1,0 +1,64 @@
+Modernising Item Development with AI and LLMs
+Minimal Worked Example Set for Participants
+3. Item Review Rubric: Minimal Worked Example
+Illustrative scenario: Secondary level science, applying Ohm's law. This example is for workshop practice only and is not tied to a specific examination board or national curriculum.
+Item being reviewed
+A simple circuit has a voltage of 12 V across a resistor of 4 ohms. What is the current in the circuit? A. 0.33 A  B. 3 A  C. 8 A  D. 48 A
+Intended outcome: Given voltage and resistance, calculate current using I = V/R. Intended cognitive demand: Apply.
+Worked scoring example
+Criterion
+Rating
+Brief evidence
+Action
+Content accuracy
+4
+Values, key, units, and calculation are correct.
+Retain.
+Construct relevance
+4
+Requires use of V, R, and I relationship.
+Retain.
+Blueprint alignment
+4
+Directly matches the stated learning outcome and content boundary.
+Retain.
+Cognitive demand
+4
+Learner applies a known relationship to given values.
+Retain.
+Language clarity
+4
+Stem is short and direct; no unnecessary wording.
+Retain.
+Accessibility
+4
+No diagram or sensory information is required.
+Retain, subject to local accessibility review.
+Fairness screening
+4
+No obvious culture specific or socioeconomic knowledge is required.
+Retain, but do not interpret this as proof that bias is absent.
+Distractor quality
+3
+A, C, and D represent possible errors, but plausibility should be checked with target learners or response data.
+Retain provisionally.
+Difficulty alignment
+3
+Expected to be straightforward for learners who know the relationship, but this is only a pre-pilot estimate.
+Confirm empirically after administration.
+Answer and scoring
+4
+One unambiguous keyed response: B.
+Retain.
+Overall reviewer decision
+Field
+Minimal example
+Provisional decision
+Retain for pilot use after subject matter review.
+Main strength
+Strong direct alignment with the stated outcome and low construct irrelevant reading demand.
+Main uncertainty
+Distractor functioning and empirical difficulty are unknown before pilot data.
+Required evidence later
+Item difficulty, discrimination, distractor functioning, and fairness analyses appropriate to the assessment purpose and sample.
+Example ratings are instructional, not universal standards. Participants should use the rubric anchors and their own assessment specifications when assigning scores.

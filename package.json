@@ -1,0 +1,26 @@
+{
+  "name": "acata-2026-workshop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ACATA 2026 participant learning workspace by Taiwo Feyijimi",
+  "author": "Taiwo Feyijimi",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/backend.test.mjs tests/state.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "test:accessibility": "node tests/accessibility.mjs",
+    "backend:dev": "wrangler dev --config backend/wrangler.jsonc",
+    "backend:deploy": "wrangler deploy --config backend/wrangler.jsonc"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "playwright": "^1.64.1",
+    "wrangler": "^4.157.0"
+  }
+}

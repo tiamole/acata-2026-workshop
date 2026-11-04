@@ -1,0 +1,88 @@
+Modernising Item Development with AI and LLMs
+2. Prompt Pack
+Reusable prompts for item generation, review, refinement, fairness screening, and item bank variation.
+Purpose
+These prompts are structured starting points. Replace bracketed fields with information from the item blueprint. Keep professional judgment with subject matter experts and psychometricians. Do not paste confidential test forms, identifiable student data, proprietary item banks, or restricted materials into an AI system unless organizational policy explicitly permits it.
+Prompting principles for assessment work
+Principle
+What to do
+Why it matters
+Ground first
+Provide the learning outcome, content boundaries, target population, and intended cognitive demand.
+Reduces construct drift and generic item writing.
+Constrain output
+Specify item type, number of options, prohibited features, format, and required metadata.
+Makes outputs easier to review consistently.
+Request evidence
+Ask the model to explain alignment, answer key, distractor logic, and uncertainty.
+Makes assumptions visible for human review.
+Separate generation and review
+Use a new review prompt or separate pass after generation.
+Reduces the chance that the model simply defends its own first draft.
+Use human gates
+Require explicit human approval before an item enters a pilot or operational bank.
+AI output is not validation evidence.
+Record changes
+Log the prompt, output, edits, reviewer, and reason for each substantive decision.
+Supports transparency and reproducibility.
+Critical distinction: AI can flag possible difficulty, bias, and alignment concerns. It cannot establish empirical item difficulty, reliability, validity, or differential item functioning without appropriate response data and psychometric analysis.
+Prompt 1. Blueprint-to-item generator
+Use when
+You have a completed blueprint and need first-draft items that are deliberately constrained by the intended construct.
+Copy and adapt:
+You are supporting an assessment development team as an item-writing assistant. Treat the specifications below as binding constraints. Do not change the construct, learner level, or cognitive demand without explicitly flagging the problem.ASSESSMENT CONTEXTSubject or domain: [INSERT]Learner population: [INSERT]Assessment purpose: [INSERT]Learning outcome or competency: [INSERT]Evidence of successful performance: [INSERT]Intended cognitive process: [INSERT]Content that must be included: [INSERT]Content that must not be included: [INSERT]Permitted prerequisite knowledge: [INSERT]Fairness and accessibility constraints: [INSERT]Item format: [INSERT]Number of items: [INSERT]Target design difficulty: [INTRODUCTORY / MODERATE / CHALLENGING]TASKGenerate the requested items. For each item provide:1. Item stem or task.2. Response options or expected response structure, as applicable.3. Correct answer or scoring guidance.4. A concise rationale explaining why the answer is correct.5. For each distractor, the misconception or reasoning error it is intended to represent.6. The specific learning outcome and content element measured.7. The intended cognitive process and a brief justification.8. A provisional difficulty rationale based on item features, clearly labeled as a design estimate rather than empirical difficulty.9. Any fairness, accessibility, ambiguity, or construct-alignment concern you detect.QUALITY CONSTRAINTSUse clear language appropriate for the target population. Avoid trick wording, unnecessary negatives, grammatical clues, implausible distractors, overlapping options, hidden prerequisites, and context that is irrelevant to the construct. If the blueprint is insufficient or internally inconsistent, identify the missing information instead of inventing it.
+Prompt 2. Selected-response item reviewer
+Use when
+You want a second-pass review of a multiple-choice or multiple-response item before human adjudication.
+Act as a critical item reviewer, not as the original item writer. Evaluate the item against the blueprint and report problems before proposing edits.BLUEPRINT[PASTE THE RELEVANT BLUEPRINT FIELDS]ITEM[PASTE ONE ITEM, OPTIONS, KEY, AND RATIONALE]REVIEW IN THIS ORDERA. Construct relevance: Does the item require evidence of the intended knowledge or skill?B. Cognitive demand: Is the reasoning actually at the intended level?C. Content accuracy: Are the stem, key, and rationale technically correct?D. Single best answer or response rule: Is the key defensible and are competing options clearly incorrect under the stated assumptions?E. Distractor quality: Is each distractor plausible because of a recognizable misconception or error, without being misleading?F. Language and accessibility: Is wording concise, direct, readable, and free of irrelevant linguistic burden?G. Fairness screening: Identify contextual or linguistic features that could create construct-irrelevant barriers for the target population.H. Item-writing flaws: Check cueing, option length patterns, absolutes, unnecessary negatives, "all of the above," overlapping options, grammatical clues, and unintended hints.OUTPUTFor each category assign: PASS, REVISE, or MAJOR CONCERN. Cite the exact feature causing the rating. Then provide a revised item only if revision can preserve the intended construct. End with a human decision question: "What evidence should the review team verify before approving this item?"
+Prompt 3. Constructed-response task and rubric reviewer
+Review the constructed-response task and scoring rubric below for construct alignment, fairness, and score interpretability.BLUEPRINT[INSERT]TASK AND RUBRIC[INSERT]Evaluate:1. Whether the task elicits the intended evidence rather than unrelated writing, memory, or background knowledge.2. Whether directions and expected response length are clear.3. Whether rubric criteria map directly to the learning outcome.4. Whether score levels are distinct, observable, and consistently interpretable.5. Whether criteria double-count the same feature.6. Whether language mechanics are scored only when they are part of the construct.7. Whether examples, contexts, or resource requirements create avoidable access barriers.8. Whether a trained reviewer could apply the rubric without guessing unstated expectations.Return a table with columns: criterion, finding, severity, recommended revision, and human verification needed. If you recommend changes, preserve the original construct.
+Prompt 4. Cognitive demand challenge test
+The intended cognitive process for this item is [INSERT]. Analyze what a minimally prepared test taker actually has to do to answer correctly.ITEM[INSERT]Do not infer cognitive demand from the verb in the stem. Trace the shortest plausible solution path. Then answer:1. What knowledge must be retrieved?2. What reasoning or procedure must be performed?3. Could the correct answer be obtained by superficial cues, memorization, elimination, or pattern matching?4. Does the item require the intended cognitive process throughout, or only superficially?5. What change, if any, would better elicit the intended reasoning without adding irrelevant difficulty?Rate alignment as STRONG, PARTIAL, or WEAK and explain the rating concisely.
+Prompt 5. Bias and fairness screening
+Use this as a screening prompt, not as proof that an item is unbiased. Statistical bias investigation requires suitable response data, group definitions justified by the assessment context, and expert interpretation.
+Screen the item for potential construct-irrelevant barriers. Do not claim that the item is unbiased or that differential item functioning has been tested.TARGET CONSTRUCT: [INSERT]TARGET POPULATION: [INSERT]ITEM: [INSERT]Examine the item for:1. Unnecessary cultural, regional, socioeconomic, religious, gendered, or technology-specific assumptions.2. Names, settings, idioms, humor, examples, or experiences that are not needed for the construct.3. Reading load or vocabulary that exceeds what the construct requires.4. Context that could advantage learners because of background familiarity rather than target knowledge.5. Stereotypes, stigmatizing framing, or sensitive content that is unnecessary for measurement.6. Visual, numerical, symbolic, or interaction demands that could create accessibility barriers.7. Differential interpretations of words or scenarios across the intended population.For each concern, state: the exact feature, the plausible construct-irrelevant barrier, who might be affected in general terms, confidence in the concern, and a construct-preserving revision. Also identify any change that should NOT be made because it would alter the construct.
+Prompt 6. Language clarity and accessibility review
+Revise the item for clarity and accessibility while preserving technical meaning, intended difficulty, and the target construct.TARGET POPULATION: [INSERT]CONSTRUCT: [INSERT]ITEM: [INSERT]Check for long sentences, unnecessary passive voice, ambiguous pronouns, double negatives, avoidable jargon, excessive reading load, inconsistent terminology, unclear units, and instructions that depend on visual position alone.Return:A. A concise list of issues.B. A revised version.C. A change log showing each substantive edit and why it does not alter the construct.D. Any wording that should remain technical because simplifying it would change what is being measured.
+Prompt 7. Distractor engineering review
+Review the distractors for the selected-response item below.ITEM AND KEY: [INSERT]TARGET LEARNERS: [INSERT]COMMON MISCONCEPTIONS OR ERRORS KNOWN TO SUBJECT EXPERTS: [INSERT, IF AVAILABLE]For each distractor:1. State the misconception or procedural error it represents.2. Judge whether it is plausible for a learner who has not mastered the target skill.3. Flag distractors that are obviously wrong, technically defensible, overlapping, or dependent on trick wording.4. Check for clues from option length, grammar, numerical pattern, precision, or repeated words.5. Propose a replacement only when necessary.Do not invent a misconception as established fact. If the misconception is hypothesized rather than documented, label it as a hypothesis for later empirical review.
+Prompt 8. Parallel-form variation for item banks
+Create [NUMBER] candidate variants of the approved source item for possible item-bank development.SOURCE ITEM: [INSERT]BLUEPRINT CONSTRAINTS: [INSERT]Preserve the same construct, content domain, response format, and intended cognitive process. Vary only features that are explicitly allowed, such as values, surface context, representation, or ordering. Do not assume that generated variants are psychometrically equivalent.For each variant provide:1. The complete item and key.2. What was varied.3. What was held constant.4. A risk note describing any way the variation might alter difficulty, interpretation, or accessibility.5. A recommendation for what must be checked by a subject matter expert and what must later be tested empirically.
+Prompt 9. Item-set coverage and construct representation
+Evaluate the ITEM SET against the BLUEPRINT as a set, not one item at a time.BLUEPRINT: [INSERT]ITEM SET: [INSERT]Create a coverage matrix by content focus, learning outcome, cognitive process, item format, and intended difficulty. Identify:1. Overrepresented areas.2. Underrepresented or missing areas.3. Repeated item patterns that create narrow construct sampling.4. Items that appear redundant.5. Areas where additional items are needed.Do not claim construct validity from coverage alone. End with a human review plan specifying which gaps should be addressed before pilot testing.
+Prompt 10. Final pre-pilot red-team review
+Act as an adversarial pre-pilot reviewer. Your job is to find reasons this item should NOT yet be approved.BLUEPRINT: [INSERT]ITEM: [INSERT]PREVIOUS REVIEW NOTES: [INSERT]Try to identify:1. A technically defensible alternative answer.2. Missing assumptions.3. Construct-irrelevant shortcuts or barriers.4. Ambiguous interpretation.5. Content or scoring errors.6. Accessibility or fairness concerns.7. Security or disclosure concerns.8. Reasons the item may behave differently from its intended difficulty.For every challenge, assign severity: CRITICAL, MATERIAL, MINOR, or NO ISSUE. Do not force a problem when evidence is weak. Conclude with one of three recommendations: HOLD, REVISE AND RECHECK, or READY FOR HUMAN PRE-PILOT APPROVAL. State clearly that the recommendation is advisory.
+Rapid prompt builder
+Prompt component
+Write your input
+Role
+What should the AI assist with?
+Construct
+What must the item measure?
+Population
+Who will answer the item?
+Evidence
+What should successful performance demonstrate?
+Constraints
+What must be included, excluded, or preserved?
+Output format
+What fields should the AI return?
+Quality checks
+What flaws should be screened?
+Human gate
+What decision remains with reviewers?
+Safe-use checklist
+Before sending content to an AI system
+Check
+I have removed personally identifiable learner information.
+Yes / No
+I am permitted to use this content in the selected AI system.
+Yes / No
+I have not included secure operational test items unless policy permits it.
+Yes / No
+I understand the organization's data retention and privacy settings.
+Yes / No
+I will independently verify technical and scoring accuracy.
+Yes / No
+I will record substantive AI contributions and human edits.
+Yes / No

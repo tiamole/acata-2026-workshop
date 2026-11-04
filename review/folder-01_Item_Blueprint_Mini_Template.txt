@@ -1,0 +1,159 @@
+Modernising Item Development with AI and LLMs
+1. Item Blueprint Mini-Template
+A practical planning tool for defining what an item should measure before AI is used to draft it.
+Purpose
+Use this template before item generation. A blueprint gives the human team control over the construct, content boundaries, cognitive demand, response format, and coverage. AI should receive these decisions as constraints rather than inventing them.
+How to use this template
+Define the assessment context and learner population.
+State the intended learning outcome or competency in observable terms.
+Describe the evidence that would demonstrate the competency.
+Select the intended cognitive process and item format.
+Specify content that is in scope, out of scope, and required for fairness.
+Use the completed blueprint as the input for item generation and later item review.
+Important: A blueprint is a design specification. It does not replace content validation, piloting, item analysis, or psychometric calibration.
+A. Assessment context
+Field
+Participant entry
+Assessment or program name
+____________________________________________________________
+Subject or discipline
+____________________________________________________________
+Course, grade, level, or certification
+____________________________________________________________
+Target learner population
+____________________________________________________________
+Assessment purpose
+Formative / Summative / Certification / Selection / Practice / Other: __________
+Delivery mode
+Paper / CBT / CAT / Classroom / Remote / Other: __________________________
+Time or item constraints
+____________________________________________________________
+B. Construct and learning outcome
+1. Construct or competency to be measured
+________________________________________________________________________________
+________________________________________________________________________________
+2. Learning outcome or performance statement
+________________________________________________________________________________
+________________________________________________________________________________
+3. Observable evidence of successful performance
+________________________________________________________________________________
+________________________________________________________________________________
+4. Critical knowledge, skill, or reasoning that must be elicited
+________________________________________________________________________________
+________________________________________________________________________________
+C. Cognitive demand specification
+Decision principle
+Choose the cognitive demand from what the learner must do to answer correctly, not from the action verb alone. A question that says "analyze" can still be simple recall if the answer is directly stated or cued.
+Cognitive process
+What the learner does
+Typical evidence
+Use for this item?
+Remember
+Retrieve relevant facts, terms, rules, or definitions.
+Recognition, recall, identification.
+Yes / No
+Understand
+Explain, classify, summarize, interpret, or compare meaning.
+Explanation, classification, interpretation.
+Yes / No
+Apply
+Use a procedure, rule, model, or method in a familiar situation.
+Calculation, execution, procedure selection.
+Yes / No
+Analyze
+Differentiate, organize, diagnose, infer relationships, or identify causes.
+Reasoned comparison, diagnosis, decomposition.
+Yes / No
+Evaluate
+Judge alternatives using explicit criteria and evidence.
+Critique, prioritization, defended decision.
+Yes / No
+Create
+Produce or plan a new solution, product, model, or response.
+Design, synthesis, constructed solution.
+Yes / No
+Intended cognitive process and justification
+________________________________________________________________________________
+________________________________________________________________________________
+D. Content boundaries and prerequisites
+Specification
+Participant entry
+Must include
+Key concepts, information, representations, or procedures required by the construct.
+May include
+Acceptable contextual features or supporting content.
+Must not include
+Topics, advanced content, irrelevant complexity, or restricted material.
+Permitted prerequisite knowledge
+Knowledge learners can reasonably be expected to possess.
+Prohibited hidden prerequisites
+Vocabulary, technology, cultural knowledge, or procedures that should not determine performance.
+Reference materials or tools allowed
+Calculator, formula sheet, table, code editor, diagram, none, or other.
+E. Item design specification
+Design choice
+Specification
+Item type
+Selected response / Multiple choice / Multiple response / Short answer / Extended response / Performance task / Other
+Number of items
+__________
+Target response time
+__________ minutes per item
+Stimulus required?
+No / Yes. If yes, describe: _____________________________________________
+Number of options, if applicable
+__________
+Scoring approach
+Dichotomous / Partial credit / Rubric / Automated plus human review / Other
+Target difficulty before pilot
+Introductory / Moderate / Challenging. This is a design intention, not an empirical difficulty estimate.
+Accessibility requirements
+Language level, visual alternatives, screen reader compatibility, allowable accommodations, other.
+F. Coverage mini-matrix
+Why this matters
+When several items are generated, the set should sample the intended domain rather than repeat the easiest concept or one familiar item pattern. Use the matrix to plan balance before generation.
+Item ID
+Content focus
+Skill or outcome
+Cognitive process
+Format
+Target difficulty
+Priority
+1
+Core / Supporting
+2
+Core / Supporting
+3
+Core / Supporting
+4
+Core / Supporting
+5
+Core / Supporting
+6
+Core / Supporting
+G. Fairness and accessibility constraints
+Use only context that is necessary to measure the target construct.
+Avoid unnecessary dependence on regional expressions, uncommon names, specialist vocabulary, socioeconomic assumptions, or culture-specific experiences unless they are part of the construct.
+Separate reading complexity from subject difficulty when reading is not the construct.
+Ensure diagrams, tables, symbols, units, and instructions are interpretable by the intended population and compatible with required accommodations.
+Do not assume that an AI fairness check demonstrates absence of bias. Empirical fairness analyses, including differential item functioning when appropriate, require response data.
+Population-specific fairness or accessibility considerations
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+H. Final blueprint sign-off
+Checkpoint
+Yes
+No
+Notes
+Construct is explicitly defined.
+Outcome and evidence are observable.
+Cognitive demand is justified.
+Content boundaries are explicit.
+Fairness and accessibility constraints are specified.
+The blueprint is detailed enough to constrain AI generation.
+Blueprint owner or reviewer
+________________________________________________________________________________
+Date and version
+________________________________________________________________________________
+Workshop use: Complete Sections A through E before the generation lab. Use Sections F through H while reviewing the resulting item set.

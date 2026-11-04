@@ -1,0 +1,57 @@
+Modernising Item Development with AI and LLMs
+Minimal Worked Example Set for Participants
+5. AI Use Audit Log: Minimal Worked Example
+Illustrative scenario: Secondary level science, applying Ohm's law. This example is for workshop practice only and is not tied to a specific examination board or national curriculum.
+A. AI interaction record
+Step
+AI task
+AI output or suggestion
+Human decision
+Reason
+1
+Generate one selected response item from blueprint
+Drafted a 12 V, 4 ohm current item with four options.
+Accepted as starting draft.
+The draft directly matched the intended outcome and stayed within content boundaries.
+2
+Explain distractor logic
+Suggested that 0.33 A reflects reversed division, 8 A subtraction, and 48 A multiplication.
+Accepted provisionally.
+The error pathways are plausible enough for review, but they are not yet supported by learner response data.
+3
+Screen wording and fairness
+Reported no clear culture specific context and low reading load.
+Accepted as screening information only.
+AI cannot establish absence of bias. Human review and appropriate empirical evidence remain necessary.
+4
+Review final item
+Found no clear issue with key or alignment.
+Human reviewer verified calculation and retained item.
+Independent human verification confirmed 12/4 = 3 A and direct alignment to the stated outcome.
+B. Version change record
+Version
+Change
+Who made decision
+Why
+1.0
+Initial AI assisted draft.
+Item developer
+Starting point from approved blueprint.
+1.1
+Clarified wording and documented distractor logic.
+Item developer and reviewer
+Improve transparency and prepare for pilot review.
+C. Final disposition
+Field
+Minimal example
+Final human decision
+Provisionally retain for pilot consideration.
+What AI contributed
+Draft wording, candidate options, distractor explanations, and second reviewer checks.
+What humans verified
+Construct alignment, calculation, key, wording, intended cognitive demand, and disposition.
+What remains unknown
+Empirical difficulty, discrimination, distractor functioning, differential performance, and other psychometric properties.
+Data privacy note
+No confidential learner data or secure live test content was entered into the AI system for this example.
+The audit log is not intended to record every keystroke. It should capture meaningful AI contributions and the human decisions that affect item quality, validity, fairness, scoring, or release status.

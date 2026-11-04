@@ -1,0 +1,13 @@
+node_modules/
+.wrangler/
+.dev.vars*
+.env*
+!.env.example
+artifacts/
+*.log
+.DS_Store
+Thumbs.db
+*.tar.gz
+*.zip
+!public/downloads/*.zip
+!public/downloads/examples/*.zip
