@@ -1,28 +1,28 @@
 [
   {
     "file": "downloads/01_Item_Blueprint_Mini_Template.docx",
-    "bytes": 42617,
-    "sha256": "707d9962ab84baa9e91b715fb47b54d396e3624b5ea1054f7d8c98b9db0cdcdf"
+    "bytes": 38757,
+    "sha256": "a833b6415b042feb17646845e5a14d2e77d66fda78b9bce1811f28080e7c8109"
   },
   {
     "file": "downloads/02_AI_LLM_Item_Development_Prompt_Pack.docx",
-    "bytes": 44995,
-    "sha256": "bb386c2cad9ebabec462f6ad09684880ee1b7b15f76f173f2c21032291260459"
+    "bytes": 42148,
+    "sha256": "ed6ce5e0e3df2eef20c842ac23fc0b20b6a450649157b86017d7fdc1f291e489"
   },
   {
     "file": "downloads/03_Item_Review_Rubric.docx",
-    "bytes": 43694,
-    "sha256": "2c2ed38497d3c1b4b033e89f25a60b604e39072c2a73221c80671792e2e8723b"
+    "bytes": 44546,
+    "sha256": "728b1e3ea490acfde5506a58c4ab4124bddbb1d12b250c79d8614d0979b0c75d"
   },
   {
     "file": "downloads/04_Item_Metadata_Sheet.docx",
-    "bytes": 42125,
-    "sha256": "22f0622ac6f81c477b3c9e6c9dbf86b7735f026658fa14d8fe12a06fb5675fa0"
+    "bytes": 39828,
+    "sha256": "3f02062ab30e6c0f4fd3d7fc98b30b349d8bc9af2d5a9ea2936ad684619858ec"
   },
   {
     "file": "downloads/05_AI_Use_Audit_Log.docx",
-    "bytes": 42525,
-    "sha256": "3b3f6d0dc8e6aa33a8fe28f422111cf0940ee6819ef1b270af180d33327c2651"
+    "bytes": 40249,
+    "sha256": "0e254a21d92ad589e63ed21205f1184261bc17681643ed938caf2b1757395d21"
   },
   {
     "file": "downloads/examples/01_Minimal_Example_Item_Blueprint.docx",
@@ -51,8 +51,8 @@
   },
   {
     "file": "downloads/participant-toolkit.zip",
-    "bytes": 203411,
-    "sha256": "fdc0d47f018ca958930c0e5a3edd2c94d4ac0eaf2d8febe02abb3dd0cc471e0f"
+    "bytes": 185200,
+    "sha256": "d4311726a7d9375b0f97de6f12fde1a11a7177dc69089020c33cfd4af0ae3560"
   },
   {
     "file": "downloads/worked-examples.zip",

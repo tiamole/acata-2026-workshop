@@ -64,3 +64,7 @@ The visual identity, learning navigation, worksheets, progress features, analyti
 No workshop date, session timings, official organisational endorsement, reviewer approvals, participant counts, outcomes, map points, or live metrics were invented. Copyright is attributed to Taiwo Feyijimi throughout.
 
 `review/inventory.json` records the reviewed instances and source-file hashes. `docs/download-manifest.json` verifies every served DOCX and ZIP. The website’s check script checks these downloadable bytes against the release manifest.
+
+## Participant download revision
+
+At Taiwo Feyijimi’s request, the five individual participant downloads now use the exact root-level DOCX files he supplied as the visually formatted versions. These supersede the subfolder copies originally selected above. The website’s participant-toolkit ZIP has been rebuilt from those same five files, preserving their bytes and formatting. Comparison found no wording changes beyond blank-entry lines and layout whitespace. The worked examples are unchanged. The current download manifest records the replacement files and rebuilt ZIP.
