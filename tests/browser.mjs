@@ -11,6 +11,7 @@ const failures=[];
 try{
  await mkdir('artifacts',{recursive:true});
  const context=await browser.newContext({viewport:{width:1440,height:1100}}),page=await context.newPage();
+ await context.route('**/config.js',route=>route.fulfill({contentType:'text/javascript',body:"export const config={apiBase:'',repository:'https://github.com/tiamole/acata-2026-workshop'};"}));
  page.on('pageerror',err=>failures.push(err.message));
  page.on('console',message=>{if(message.type()==='error'&&!message.text().includes('favicon'))failures.push(message.text());});
  await page.goto(base);await page.getByRole('heading',{name:'Better items. Stronger evidence.'}).waitFor();

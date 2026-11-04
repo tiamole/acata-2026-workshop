@@ -52,7 +52,9 @@ async function rateLimit(request,env,path){
  // Connection address is used transiently for anti-abuse, never stored in plaintext.
  const ip=request.headers.get('CF-Connecting-IP')||'local';const now=Date.now(),hour=Math.floor(now/3600000);
  const bucket=await hmac(env.RATE_LIMIT_SALT,`${hour}:${path}:${ip}`);
- const limit=path.startsWith('/admin')?60:path==='/participant'?10:path==='/survey'?30:240;
+ // Workshop attendees may share one venue Wi-Fi address. Keep public limits
+ // large enough for that shared network while bounding repeated writes.
+ const limit=path.startsWith('/admin')?60:path==='/participant'?500:path==='/survey'?1000:10000;
  const row=await env.DB.prepare('INSERT INTO rate_limits(bucket,count,expires_at) VALUES(?,1,?) ON CONFLICT(bucket) DO UPDATE SET count=count+1 RETURNING count').bind(bucket,now+7200000).first();
  if(row.count>limit)fail(429,'Too many requests. Please try again later.');
 }

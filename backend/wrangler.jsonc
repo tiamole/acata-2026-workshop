@@ -1,6 +1,7 @@
 {
   "$schema": "../node_modules/wrangler/config-schema.json",
   "name": "acata-workshop-api",
+  "account_id": "408edd29734d1610c8046af8c3f4fc02",
   "main": "worker.js",
   "compatibility_date": "2026-11-04",
   "workers_dev": true,
@@ -18,7 +19,7 @@
     {
       "binding": "DB",
       "database_name": "acata-workshop",
-      "database_id": "REPLACE_WITH_CREATED_D1_DATABASE_ID",
+      "database_id": "83eb95cc-990a-47f1-8349-f6851756a5fc",
       "migrations_dir": "migrations"
     }
   ],

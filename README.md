@@ -18,9 +18,15 @@ The public frontend is prepared for `tiamole/acata-2026-workshop` on GitHub Page
 
 ## Current release state
 
-The frontend works locally now. `public/config.js` deliberately has an empty `apiBase` until the shared service is actually deployed. Research collection is disabled by default and stays disabled until the configured study information is complete. No GitHub or Cloudflare credentials are included.
+The website is published at **https://tiamole.github.io/acata-2026-workshop/**. Its shared service is **https://acata-workshop-api.acata-2026-workshop.workers.dev**. The D1 database and daily cleanup schedule have been provisioned; `public/config.js` points to the deployed API. Research collection remains disabled until the configured study information is complete. No GitHub or Cloudflare credentials are included in this repository.
 
-The intended Pages address is `https://tiamole.github.io/acata-2026-workshop/`; this is a deployment target, not a claim that publication has succeeded.
+GitHub Pages and the service were verified in production on 4 November 2026. See [release verification](docs/VERIFICATION.md) for the checks and their limits.
+
+## Open your private facilitator dashboard
+
+On the Windows account used for deployment, double-click **`Open-Facilitator-Dashboard.cmd`**. It copies the administrator token from Windows Credential Manager and opens the dashboard. Paste the token into its sign-in field. No token is printed to the console or embedded in the URL.
+
+The credential is stored under `ACATA2026Workshop/CloudflareSecrets`. Keep it private. To use the dashboard from another device, save the copied administrator token in your own trusted password manager and sign in at `https://tiamole.github.io/acata-2026-workshop/#dashboard`. The repository never contains the secret values.
 
 ## Preview
 
@@ -59,7 +65,7 @@ The workflow intentionally excludes backend code, research settings, review extr
 
 ## Connect the shared service
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for the exact D1, Worker, secrets, and frontend connection steps. The dashboard is at `/#dashboard` on the published site; it requires the server-side `ADMIN_TOKEN` and stores it only in memory for that page session.
+The production service is already connected. See [DEPLOYMENT.md](DEPLOYMENT.md) for maintenance and a fresh-install reference. The dashboard is at `/#dashboard` on the published site; it requires the server-side `ADMIN_TOKEN` and stores it only in memory for that page session.
 
 GitHub Pages serves static files and cannot execute the backend. Publishing only the Pages frontend enables the lessons, original downloads, local progress, and private survey drafts. Shared analytics, cloud sync, and research submission require the separately deployed backend.
 

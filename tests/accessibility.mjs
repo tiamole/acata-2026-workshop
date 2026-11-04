@@ -7,6 +7,7 @@ const base=`http://127.0.0.1:${server.address().port}`;
 const browser=await chromium.launch({headless:true,...(process.env.BROWSER_PATH?{executablePath:process.env.BROWSER_PATH}:process.platform==='win32'?{executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'}:{})});
 try{
  const context=await browser.newContext({viewport:{width:1440,height:1100}});const page=await context.newPage();const reports=[];
+ await context.route('**/config.js',route=>route.fulfill({contentType:'text/javascript',body:"export const config={apiBase:'',repository:'https://github.com/tiamole/acata-2026-workshop'};"}));
  for(const route of ['home','module/blueprint','module/review','resources','workspace','survey','privacy']){
   await page.goto(base+'/#'+route);await page.locator('#view h1').waitFor();
   const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();

@@ -2,6 +2,16 @@
 
 The prepared architecture is a GitHub Pages frontend plus a small Cloudflare Worker and D1 database. The frontend can be published before backend setup; its service-dependent controls clearly state that the service is not connected.
 
+## Existing production installation
+
+The website is live at **https://tiamole.github.io/acata-2026-workshop/**. The shared API is **https://acata-workshop-api.acata-2026-workshop.workers.dev**. The checked-in Worker configuration identifies the already-created database. Its migration and daily cleanup trigger are deployed. Research submission is intentionally closed.
+
+For normal updates, run the relevant checks and push frontend changes to `main`; Pages publishes automatically. Deploy backend source changes with `npm run backend:deploy` while signed into the owning Cloudflare account. Do not create another database or replace the existing secrets just to update the site.
+
+The four random service secrets are backed up in the deploying Windows account’s Credential Manager under `ACATA2026Workshop/CloudflareSecrets`. Double-click `Open-Facilitator-Dashboard.cmd` to copy the administrator token and open the private dashboard. The helper uses a child-process-only script execution setting and leaves the computer’s PowerShell execution policy unchanged.
+
+`scripts/bootstrap-secrets.ps1` reuses that protected credential if rerun; it does not deliberately rotate the salts. Run it only for explicit secret recovery/reconfiguration, not routine publication. The installation steps below are retained as a **fresh-install reference**; database creation and initial secret setup have already been completed for this installation.
+
 ## 1. GitHub Pages
 
 The authorized destination is `tiamole/acata-2026-workshop` (public). Push this checkout’s contents, including `.github/workflows/pages.yml`, to `main`. Enable **Settings → Pages → GitHub Actions**. Re-run the workflow if the initial push ran before Pages was enabled.
@@ -89,7 +99,7 @@ The Worker’s daily UTC cron deletes visit events older than 90 days, expired s
 
 Synced workspaces remain until deleted with their recovery code. Provider-level backups and logs follow provider settings; review those settings before opening research collection. App-level deletion does not promise removal from every provider backup. Observability is disabled in the supplied Worker configuration, and the app does not log secrets, response content, or IP addresses.
 
-Anti-abuse buckets use a keyed hash of the connection address, route, and hour. Raw addresses are used transiently, not retained in application tables. Buckets expire after two hours and are removed by the daily cleanup. This is an application-level limit, not comprehensive bot protection. Tune limits for shared workshop networks before a large event, and consider provider-side traffic protection if needed.
+Anti-abuse buckets use a keyed hash of the connection address, route, and hour. Raw addresses are used transiently, not retained in application tables. Buckets expire after two hours and are removed by the daily cleanup. Public limits allow a shared venue network: 500 workspace creations, 1,000 survey requests, and 10,000 other requests per address/route/hour; administrator routes allow 60. This is an application-level limit, not comprehensive bot protection. Review limits for unusually large events, and consider provider-side traffic protection if needed.
 
 The public data-creation endpoints can be automated. Do not treat page views or response counts as verified attendance. Visitor-days intentionally count the same browser again on each UTC day. The app never calls browser geolocation; the location chart is approximate network country only.
 
